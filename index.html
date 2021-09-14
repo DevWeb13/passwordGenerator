@@ -9,35 +9,56 @@
   </head>
   <body>
     <div id="container">
-      <h2>CFHHTDGGGF</h2>
-      <div>
+      <input
+        type="text"
+        id="password-output"
+        value="Génerateur de MDP"
+        readonly
+      />
+      <div id="range-container">
         <input
           type="range"
-          id="volume"
+          id="charactersNumber"
           name="charactersNumber"
-          min="1"
-          max="32"
+          min="4"
+          max="24"
+          value="8"
+          oninput="document.getElementById('displayCharactersNumber').value=this.value"
         />
-        <label for="charactersNumber">14</label>
+        <input type="text" id="displayCharactersNumber" value="8" readonly />
       </div>
+
       <div id="characters">
         <div>
-          <input type="checkbox" id="scales" name="scales" checked />
-          <label for="scales">Scales</label>
+          <input
+            type="checkbox"
+            id="lowerCaseLetters"
+            name="lowerCaseLetters"
+          />
+          <label for="lowerCaseLetters">a-z</label>
         </div>
         <div>
-          <input type="checkbox" id="scales" name="scales" checked />
-          <label for="scales">Scales</label>
+          <input
+            type="checkbox"
+            id="upperCaseLetters"
+            name="upperCaseLetters"
+          />
+          <label for="upperCaseLetters">A-Z</label>
         </div>
         <div>
-          <input type="checkbox" id="scales" name="scales" checked />
-          <label for="scales">Scales</label>
+          <input type="checkbox" id="numbers" name="numbers" />
+          <label for="numbers">0-9</label>
         </div>
         <div>
-          <input type="checkbox" id="scales" name="scales" checked />
-          <label for="scales">Scales</label>
+          <input
+            type="checkbox"
+            id="specialCharacters"
+            name="specialCharacters"
+          />
+          <label for="specialCharacters">!-?</label>
         </div>
       </div>
+      <button id="submit" type="button">Générer un mot de passe</button>
     </div>
     <script src="main.js"></script>
   </body>
