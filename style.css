@@ -74,7 +74,7 @@ label {
   text-decoration: none;
   font-family: Arial;
   box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 3px 2px;
-  o-box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 3px 2px;
+  -o-box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 3px 2px;
   -moz-box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 3px 2px;
   -webkit-box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 3px 2px;
 
@@ -112,7 +112,7 @@ label {
 
 #submit:active {
   box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 0 2px;
-  o-box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 0 2px;
+  -o-box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 0 2px;
   -moz-box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 0 2px;
   -webkit-box-shadow: inset #ffffff 0px 5px 8px -1px, #d6d6d6 1px 0 2px;
   position: relative;
