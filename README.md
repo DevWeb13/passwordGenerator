@@ -2,10 +2,10 @@
 
 @author: [DevWeb13](https://twitter.com/DeveloppementW1)
 
-Génération d'un mot de passe aléatoire copié dans le presse papier en JS.
+Generation of a random password copied to the clipboard in JS.
 
-Réalisé grace au tutoriel YouTube: ["[Cours Javascript] Apprendre Javascript de A à Z – Les données (3/6)"](https://www.youtube.com/watch?v=5l_agaIkbKo&list=PLEiMYEzpB4QuS8AXU9eAz1aw_WBknPn1E&index=3) de ["From Scratch()"]( https://twitter.com/KobeKenjo).
+Realized thanks to the YouTube tutorial: ["[Cours Javascript] Apprendre Javascript de A à Z – Les données (3/6)"](https://www.youtube.com/watch?v=5l_agaIkbKo&list=PLEiMYEzpB4QuS8AXU9eAz1aw_WBknPn1E&index=3) of ["From Scratch()"]( https://twitter.com/KobeKenjo).
 
-Un grand merci a lui!!
+A big thank you to him!!
 
-# [SITE FINAL](https://devweb13.github.io/passwordGenerator/)
+# [FINAL SITE](https://devweb13.github.io/passwordGenerator/)
